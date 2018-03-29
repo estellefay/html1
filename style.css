@@ -1,6 +1,8 @@
 /* Comments */
 /* You don't have a life for look my code */
 
+
+/* header */
 header {
   height: 60px;
 }
@@ -11,25 +13,59 @@ header {
   justify-content: space-around;
 }
 
+
+/* Center */
 .flex-center {
   align-items: center;
 
 }
 
-ul.flex-center {
-  width: 200px;
-}
-
+/* Pas de marge */
 .no-padding-margin{
   margin: 0;
   padding: 0;
 }
 
+/* Enlever les points des list  */
 .list-no-style{
   list-style: none;
 }
 
+/* text noir et en majuscule  */
 .menu-buttons>li>a {
   text-decoration: none;
   color: black;
+  text-transform: uppercase;
+}
+
+/* Marge */
+.menu-buttons>li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* ARRIERE PLAN NOIR - COULEUR BLANCHE - Majuscule  */
+.menu-buttons>li>a:hover {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.menu-buttons>li:hover {
+  background-color: black;
+}
+
+.menu-buttons>li:hover>a {
+  color: white;
+}
+
+/* ecart entre les différentes li */
+ul.flex-center {
+  width: 300px;
+}
+
+
+.full-height {
+  height: 100%;
 }
