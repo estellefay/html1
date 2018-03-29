@@ -1,11 +1,50 @@
 /* Comments */
 /* You don't have a life for look my code */
+* {
+  font-family: 'Questrial', sans-serif;
+}
 
-
-/* header */
+/* Selecteur for balises */
 header, footer{
   height: 60px;
 }
+
+header{
+  background-color: #B75148;
+}
+
+body {
+  background-color: #C38C87;
+
+}
+
+footer {
+  background-color: #843A34;
+}
+
+/*h1 {
+  font-family: 'Indie Flower', cursive;
+}
+*/
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Selector for classes */
+
+.image-container {
+  width: 500px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.flex-center {
+  align-items: center;
+
+}
+
 
 .flex-base {
   display: flex;
@@ -13,76 +52,51 @@ header, footer{
   justify-content: space-around;
 }
 
-
-/* Center */
-.flex-center {
-  align-items: center;
-
+.flex-column {
+  flex-direction: column;
 }
 
-/* Pas de marge */
 .no-padding-margin{
   margin: 0;
   padding: 0;
 }
 
-/* Enlever les points des list  */
 .list-no-style {
   list-style: none;
 }
 
-/* text noir et en majuscule  */
+.p-base {
+  width: 650px;
+  text-align: justify;
+}
+/* Complex selector */
+.image-container>img {
+  max-width: 100%;
+  height: auto;
+}
 .menu-buttons>li>a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
 }
-
-/* Marge */
 .menu-buttons>li {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* ARRIERE PLAN NOIR - COULEUR BLANCHE - Majuscule  */
 .menu-buttons>li>a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   text-transform: uppercase;
 }
 
 
 .menu-buttons>li>a:hover {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: #C38C87;
 }
 
-/* ecart entre les différentes li */
+
 ul.flex-center {
   width: 300px;
 }
-
-
-.full-height {
-  height: 100%;
-}
-
-
-
-
-/* Footer
-footer, ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-*/
