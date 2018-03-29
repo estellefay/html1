@@ -3,7 +3,7 @@
 
 
 /* header */
-header {
+header, footer{
   height: 60px;
 }
 
@@ -27,7 +27,7 @@ header {
 }
 
 /* Enlever les points des list  */
-.list-no-style{
+.list-no-style {
   list-style: none;
 }
 
@@ -52,12 +52,9 @@ header {
 }
 
 
-.menu-buttons>li:hover {
-  background-color: black;
-}
-
-.menu-buttons>li:hover>a {
+.menu-buttons>li>a:hover {
   color: white;
+  background-color: black;
 }
 
 /* ecart entre les différentes li */
@@ -69,3 +66,23 @@ ul.flex-center {
 .full-height {
   height: 100%;
 }
+
+
+
+
+/* Footer
+footer, ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+*/
