@@ -181,3 +181,41 @@ ul.flex-center {
 {
   background-color: red !important;
 }
+
+.bouton
+{
+  width: 150px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bouton:hover
+{
+  background-color: #009494;
+  color: white;
+  cursor: pointer;
+}
+
+.reset
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#compteur
+{
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
