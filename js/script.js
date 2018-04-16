@@ -1,4 +1,4 @@
-document.querySelector('[data-action="destroy"]').addEventListener('click', function(){
+/* document.querySelector('[data-action="destroy"]').addEventListener('click', function(){
   document.querySelector('body').classList.add('cross');
   document.addEventListener('click',function(el) {
     el.target.outerHTML = '';
@@ -14,7 +14,7 @@ function spawnJCVD()
   jcvd.style.left = Math.floor(Math.random() * Math.floor(screen.width)) + 'px' ;
   document.querySelector('body').appendChild(jcvd);
 }
-
+*/
 
 
 
